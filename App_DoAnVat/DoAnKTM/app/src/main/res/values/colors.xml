@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#FFFFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="equa">#00ffff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="green">#008000</color>
+    <color name="darkmagenta">#8b008b</color>
+    <color name="purple">#800080</color>
+    <color name="teal">#008080</color>
+    <color name="dodgerblue">#1e90ff</color>
+</resources>

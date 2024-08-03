@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderHistoryFragment">
+
+    <TextView
+        android:id="@+id/textViewOrderHistoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lịch sử mua hàng"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        android:background="#F0F0F0"/>
+
+    <ListView
+        android:id="@+id/listViewOrderHistory"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_below="@id/textViewOrderHistoryTitle"
+        android:padding="8dp"
+        android:dividerHeight="1dp"
+        android:divider="@android:color/darker_gray"/>
+</RelativeLayout>
